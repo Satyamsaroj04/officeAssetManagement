@@ -23,10 +23,10 @@ public class layout extends javax.swing.JFrame {
         setLayout(new BorderLayout());
         
         sidebar sidebar = new sidebar();
-        add(sidebar,BorderLayout.WEST);
+//        add(sidebar,BorderLayout.WEST);
         
-        dashboardzz dashboard = new dashboardzz();
-        add(dashboard, BorderLayout.CENTER);
+        admindash dashboard = new admindash();
+        add(dashboard, BorderLayout.WEST);
         
         itguyzz Itguy =new itguyzz();
         

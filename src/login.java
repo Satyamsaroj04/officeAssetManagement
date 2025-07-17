@@ -69,6 +69,7 @@ public class login extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jRadioButton1.setBackground(new java.awt.Color(0, 0, 0));
@@ -164,7 +165,8 @@ public class login extends javax.swing.JFrame {
         // TODO add your handling code here:
 //         login A=new login();
 //        A.setVisible(false);
-        admindash b=new admindash();
+        this.setVisible(false);
+        layout b = new layout();
         b.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
