@@ -15,6 +15,7 @@ public class layout extends javax.swing.JFrame {
     
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(layout.class.getName());
 
+    JPanel activePanel;
     /**
      * Creates new form layout
      */
@@ -22,26 +23,37 @@ public class layout extends javax.swing.JFrame {
         initComponents();
         setLayout(new BorderLayout());
         
-        sidebar sidebar = new sidebar();
+        adminSidebar sidebar = new adminSidebar();
+        ManageEmpolyee employee = new ManageEmpolyee();
+        
+        //mera code
+       
+         ManageAsset Asset = new ManageAsset();
+        //
 //        add(sidebar,BorderLayout.WEST);
+    
         
-        admindash dashboard = new admindash();
-        add(dashboard, BorderLayout.WEST);
+        AdminDashboard dashboard = new AdminDashboard();
+        this.activePanel = dashboard;
+        add(sidebar,BorderLayout.WEST);
+         add(this.activePanel, BorderLayout.CENTER);
         
-        itguyzz Itguy =new itguyzz();
-        
-        sidebar.getdashboard().addActionListener(e->{
-          replaceCenterPanel(dashboard,Itguy);  
-        });
-                
-        sidebar.getitguy().addActionListener(e->{
-            replaceCenterPanel(Itguy,dashboard);
-        
-    });
+       sidebar.getRegisterUser().addActionListener(e->{
+           replaceCenterPanel(employee,this.activePanel);
+       });
+        //admin register button upper
+        //mera code button ala
+        sidebar.getViewAsset().addActionListener(e->{
+           replaceCenterPanel(Asset,this.activePanel);
+       });
+       //upper code mera a
+       
+       
     }
     public void replaceCenterPanel(JPanel newPanel,JPanel currentPanel){
         remove(currentPanel);
         currentPanel=newPanel;
+        this.activePanel = newPanel;
         add(currentPanel,BorderLayout.CENTER);
         revalidate();
         repaint();

@@ -3,14 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/Management.java</file>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/login.java</file>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/admindash.java</file>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/ITGUYdash.java</file>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/ManageEmpolyee.java</file>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/ManageAsset.java</file>
             <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/layout.java</file>
-            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/sidebar.java</file>
+            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/AdminDashboard.java</file>
+            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/userSidebar.java</file>
+            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/adminSidebar.java</file>
+            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/ManageAsset.java</file>
+            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/login.java</file>
+            <file>file:/C:/Users/satya/OneDrive/Documents/NetBeansProjects/management/src/ManageEmpolyee.java</file>
         </group>
     </open-files>
 </project-private>
